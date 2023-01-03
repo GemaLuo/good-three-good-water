@@ -1,14 +1,21 @@
 //地圖
-document.querySelector('a').addEventListener('hover',function(){
-    var theID = document.querySelector(this).attr('id');
-    document.querySelector('select').val(theID);
-    document.querySelector('a').classList.remove('active');
-    document.querySelector(this).classList.add('active');
-})
-  
-document.querySelector('#city').addEventListener('change',function(){
-    var valID = document.querySelector('#city').value;
-    document.querySelector('a').classList.remove('active');
+const aElements = document.querySelectorAll('a')
+
+document.querySelectorAll('a').forEach(function(aElements) {
+    aElements.addEventListener('click', function() {
+    const theID = aElements.getAttribute('id');    
+    document.querySelectorAll('a').forEach(function(element) {
+        element.classList.remove('active');
+    });
+    document.querySelector('#' + theID).classList.add('active');
+    });
+});
+
+document.querySelector('#city').addEventListener('change',function(event){
+    const valID = event.target.value;    
+    for (let i = 0; i < aElements.length; i++) {
+        aElements[i].classList.remove('active');
+    }
     document.querySelector('#' + valID).classList.add('active');
-})
+});
   
