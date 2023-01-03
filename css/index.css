@@ -111,6 +111,16 @@ nav {
   height: 100%;
 }
 
+/* <style type="text/css">
+        						.st0 {
+          							fill: #E6E6E6;
+        						}
+      						</style> 
+                  移至這裡並改為對a標籤設定*/
+a {
+  fill: #e6e6e6;
+}
+
 a path {
   transition: all 0.2s;
 }
@@ -122,11 +132,6 @@ a:hover path {
 a.active path {
   fill: red;
 }
-
-.st0 {
-  fill: #9dc5ec;
-}
-
 /*手機版面*/
 @media (max-width: 1200px) {
   .main {
