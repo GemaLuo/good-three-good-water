@@ -1,12 +1,12 @@
 function showRainfall() {
   const cities = [
-    台北市,
+    臺北市,
     新北市,
     基隆市,
     宜蘭縣,
     花蓮縣,
     台東縣,
-    桃園縣,
+    桃園市,
     新竹縣,
     苗栗縣,
     台中市,
