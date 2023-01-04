@@ -3,6 +3,17 @@ const mobileRainfall = document.getElementById("mobile-rainfall");
 const temp = document.getElementById("temp");
 const mobileTemp = document.getElementById("mobile-temp");
 
+document.addEventListener("click", (event) => {
+  if (
+    !rainfall.contains(event.target) &&
+    !mobileRainfall.contains(event.target) &&
+    !temp.contains(event.target) &&
+    !mobileTemp.contains(event.target)
+  ) {
+    removeFilter();
+  }
+});
+
 rainfall.addEventListener("click", () => {
   showRainfall();
 });
@@ -214,6 +225,22 @@ function preventOverlap() {
   } else if (rain !== null) {
     rain.remove();
   } else {
+    temp.remove();
+  }
+}
+
+function removeFilter() {
+  let cityPattern = document.querySelectorAll("a");
+  const rain = document.getElementById("雨量");
+  const temp = document.getElementById("溫度");
+
+  for (let i = 0; i < cityPattern.length; i++) {
+    cityPattern[i].style.fill = "#E6E6E6";
+  }
+
+  if (rain !== null) {
+    rain.remove();
+  } else if (temp !== null) {
     temp.remove();
   }
 }
