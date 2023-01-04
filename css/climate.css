@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
 
 .main-left-today,
 .main-left-tomorrow {
@@ -60,7 +60,7 @@
     transform: rotate(360deg);
 }
 
-.CI{
+.CI {
     padding-bottom: 10px;
     color: #2A4C65;
     font-weight: 700;
@@ -148,35 +148,289 @@
     width: 80px;
     margin-right: 10px;
     /* padding-bottom: 20px; */
-
-
 }
 
 .w2weatherImg:hover,
 .w3weatherImg:hover {
     animation: pulse 1s infinite;
 }
-  
-  @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
 
-  @keyframes fadeIn {
+@keyframes pulse {
     0% {
-      opacity: 0;
+        transform: scale(1);
     }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
     50% {
         opacity: 0.5;
-      }
-    100% {
-      opacity: 1;
     }
-  }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 1031px) {
+
+    .w1 {
+        grid-template-columns: 55% 45%;
+        width: 90%;
+    }
+
+    .locationName {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .w1,
+    .w22,
+    .w33 {
+        width: 90%;
+    }
+
+    .w1 {
+        grid-template-columns: 48% 52%;
+    }
+
+    .locationName {
+        font-size: 26px;
+    }
+
+    .timeTitle {
+        font-size: 17px;
+    }
+
+    .time {
+        font-size: 15px;
+    }
+
+    .w2weatherImg,
+    .w3weatherImg {
+        width: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .w1,
+    .w22,
+    .w33 {
+        width: 90%;
+    }
+
+    .w1 {
+        grid-template-columns: 48% 52%;
+    }
+
+    .w22,
+    .w33 {
+        grid-template-columns: 55% 45%;
+    }
+
+    .locationName {
+        font-size: 25px;
+    }
+
+    .timeTitle {
+        font-size: 16px;
+    }
+
+    .time {
+        font-size: 14px;
+    }
+
+    .CI {
+        font-size: 15px;
+    }
+
+    .climate {
+        font-size: 15px;
+    }
+
+    .rainy {
+        font-size: 15px;
+    }
+
+    .w2climate,
+    .w3climate {
+        font-size: 13px;
+    }
+
+    .w2rainy,
+    .w3rainy {
+        font-size: 13px;
+    }
+
+    .w2weatherImg,
+    .w3weatherImg {
+        width: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    /* .main-left-tomorrow {
+        height: 500px;
+    } */
+
+    .w1,
+    .w22,
+    .w33 {
+        width: 90%;
+    }
+
+    .w1 {
+        width: 96%;
+        padding-top: 5px;
+    }
+
+
+    .w22,
+    .w33 {
+        padding-top: 3px;
+        grid-template-columns: 100%;
+        border-bottom: #FFFFFF 0px solid;
+        padding-left: 70px;
+    }
+
+    .w33 {
+        position: relative;
+        top: -180px;
+        left: 110px;
+    }
+
+    .weatherImg {
+        margin-top: 5px;
+        width: 60px;
+        padding-bottom: 5px;
+        transition: 1s ease-in-out;
+    }
+
+    .CI {
+        padding-top: 0px;
+    }
+
+    .w2timeTitle,
+    .w3timeTitle {
+        padding-left: 5px;
+    }
+
+    .w2rainy,
+    .w3rainy {
+        padding-bottom: 5px;
+    }
+
+    .w2weatherImg,
+    .w3weatherImg {
+        width: 50px;
+        margin-top: 0px;
+        padding-left: 10px;
+    }
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .w22,
+    .w33 {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    .w22,
+    .w33 {
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .w22,
+    .w33 {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .w22,
+    .w33 {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .w22,
+    .w33 {
+        padding-left: 10px;
+    }
+
+    .w33 {
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+
+    .w22,
+    .w33 {
+        padding-left: 0px;
+    }
+
+    .w33 {
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+
+    .w22,
+    .w33 {
+        padding-left: 0px;
+        margin-left: 10;
+    }
+
+    .w33 {
+        left: 80px;
+        top: -175px;
+    }
+
+    .w2time,
+    .w3time {
+        font-size: 12px;
+    }
+
+    .w2climate,
+    .w3climate {
+        font-size: 10px;        
+    }
+
+    .w2rainy,
+    .w3rainy {
+        font-size: 10px;
+    }
+
+
+}
