@@ -95,6 +95,7 @@ nav {
   background-color: #a9d3fa;
   text-align: center;
   border-radius: 15px;
+  position: relative;
 }
 /*主畫面-右側-地圖*/
 .main-right {
