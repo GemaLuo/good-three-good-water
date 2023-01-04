@@ -60,16 +60,20 @@ function getClimate(elements) {
             {}
         );
 
-        climateToday.innerHTML = `<div class="w1">
-        <div class="locationName">${locationData.locationName}</div>
-        <div><span class="timeTitle"></span><br><span class="time">${sttoday}-${ettoday}</span></div>
-    </div>
-    <div><img src="" alt="" class="weatherImg"></div>
-    <label class="CI">${weatherElements.CI.parameterName}</label><br>
-    <label class="climate"><span class="MinT">${weatherElements.MinT.parameterName}</span>°-<span class="MaxT">${weatherElements.MaxT.parameterName}</span>°</label>
-    <label class="rainy"><img src="https://cdn-icons-png.flaticon.com/512/3418/3418570.png" alt=""
-            class="rainpic"><span class="PoP">${weatherElements.PoP.parameterName}</span>%</label>`
-        mainLeftToday.appendChild(climateToday);
+        climateToday.innerHTML = `
+        <div class="w1">
+            <div class="locationName">${locationData.locationName}</div>
+            <div><span class="timeTitle"></span><br><span class="time">${sttoday}-${ettoday}</span></div>
+        </div>
+        <div><img src="" alt="" class="weatherImg"></div>
+        <div class="w0">
+        <label class="CI">${weatherElements.CI.parameterName}</label><br>
+        <label class="climate"><span class="MinT">${weatherElements.MinT.parameterName}</span>°-<span class="MaxT">${weatherElements.MaxT.parameterName}</span>°</label>
+        <label class="rainy"><img src="https://cdn-icons-png.flaticon.com/512/3418/3418570.png" alt=""
+            class="rainpic"><span class="PoP">${weatherElements.PoP.parameterName}</span>%</label>
+            </div>`
+        
+            mainLeftToday.appendChild(climateToday);
 
         // 明早
         const tomorrow_morning = locationData.weatherElement.reduce(
@@ -85,9 +89,9 @@ function getClimate(elements) {
         climateW2.innerHTML = `<div class="w22">
         <div>
             <div><label class="w2timeTitle"></label><br><label class="w2time">${sttm}-${ettm}</label></div>
-            <div class="w2climate">最高氣溫&emsp;<span class="MaxT">${tomorrow_morning.MaxT.parameterName}</span>°<br>最低氣溫&emsp;<span
+            <div class="w2climate">最高氣溫&ensp;<span class="MaxT">${tomorrow_morning.MaxT.parameterName}</span>°<br>最低氣溫&ensp;<span
                     class="MinT">${tomorrow_morning.MinT.parameterName}</span>°</div>
-            <div class="w2rainy">降雨機率&emsp;<span class="PoP">${tomorrow_morning.PoP.parameterName}</span>%</div>
+            <div class="w2rainy">降雨機率&ensp;<span class="PoP">${tomorrow_morning.PoP.parameterName}</span>%</div>
         </div>
         <div><img src="" alt="" class="w2weatherImg">
         </div>
@@ -108,9 +112,9 @@ function getClimate(elements) {
         climateW3.innerHTML = `<div class="w33">
         <div>
             <div><span class="w3timeTitle"></span><br><span class="w3time">${sttn}-${ettn}</span></div>
-            <div class="w3climate">最高氣溫&emsp;<span class="MaxT">20</span>°<br>最低氣溫&emsp;<span
-                    class="MinT">16</span>°</div>
-            <div class="w3rainy">降雨機率&emsp;<span class="PoP">10</span>%</div>
+            <div class="w3climate">最高氣溫&ensp;<span class="MaxT">${tomorrow_night.MaxT.parameterName}</span>°<br>最低氣溫&ensp;<span
+                    class="MinT">${tomorrow_night.MinT.parameterName}</span>°</div>
+            <div class="w3rainy">降雨機率&ensp;<span class="PoP">10</span>%</div>
         </div>
         <div><img src="" alt="" class="w3weatherImg">
         </div>
@@ -127,7 +131,7 @@ function getClimate(elements) {
 
         if (sttoday == "12:00") {
             timeTitle.innerText = "今日白天";
-        } else if (sttoday == "18:00") {
+        } else if (sttoday == "18:00" || sttoday == "00:00") {
             timeTitle.innerText = "今晚明晨";
         }
 
@@ -149,7 +153,7 @@ function getClimate(elements) {
         if (cvaluetd == 1) {
             if (sttoday == "12:00") {
                 weatherImg.src = "https://cdn-icons-png.flaticon.com/512/869/869767.png";
-            } else if (sttoday == "18:00") {
+            } else if (sttoday == "18:00" || sttoday == "00:00") {
                 weatherImg.src = "https://cdn-icons-png.flaticon.com/512/4139/4139162.png";
             }
         }
@@ -157,7 +161,7 @@ function getClimate(elements) {
         if (cvaluetd == 2 || cvaluetd == 3) {
             if (sttoday == "12:00") {
                 weatherImg.src = "https://cdn-icons-png.flaticon.com/512/1146/1146808.png";
-            } else if (sttoday == "18:00") {
+            } else if (sttoday == "18:00" || sttoday == "00:00") {
                 weatherImg.src = "https://cdn-icons-png.flaticon.com/512/7105/7105025.png";
             }
         }
@@ -169,7 +173,7 @@ function getClimate(elements) {
         if (cvaluetd == 8 || cvaluetd == 9 || cvaluetd == 10 || cvaluetd == 11 || cvaluetd == 12 || cvaluetd == 13 || cvaluetd == 14 || cvaluetd == 19 || cvaluetd == 20) {
             if (sttoday == "12:00") {
                 weatherImg.src = "https://cdn-icons-png.flaticon.com/512/5903/5903530.png";
-            } else if (sttoday == "18:00") {
+            } else if (sttoday == "18:00" || sttoday == "00:00") {
                 weatherImg.src = "https://cdn-icons-png.flaticon.com/512/5903/5903651.png";
             }
         }
