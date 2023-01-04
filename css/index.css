@@ -239,7 +239,7 @@ a.active path{
         background-repeat: no-repeat;
         border: none;
         cursor: pointer;
-        background-image: url("icon-menu.png");
+        background-image: url("../pics/icon-menu.png");
         width: 30px;
         height: 30px;
     }
