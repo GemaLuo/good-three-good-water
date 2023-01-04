@@ -11,6 +11,8 @@
 	<!--<link rel="stylesheet" type="text/css" href="css/common.css" />-->
 	<!-- 建立雨量觀測部份的樣式 -->
 	<!-- <link rel="stylesheet" type="text/css" href="css/raining.css" /> -->
+
+	
 </head>
 <body>
 	<!--網站名稱 & 導覽列濾鏡-->
@@ -20,10 +22,10 @@
 			<div class="nav-title">GOOD THREE</div>
 			<!--右側導覽列-濾鏡-->
 			<div class="nav-menu">
-				<button>
+				<button id="temp">
 					<span>氣溫</span>
 				</button>
-				<button>
+				<button id="rainfall">
 					<span>雨量</span>
 				</button>
 			</div>
@@ -69,11 +71,12 @@
 				<div class="container">
   					<div class="block">
     					<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
-      						<style type="text/css">
+      						<!--需要移至css檔中，濾鏡才能作用-->
+							<!-- <style type="text/css">
         						.st0 {
           							fill: #E6E6E6;
         						}
-      						</style>
+      						</style> -->
       					<a href="javascript:;" id="基隆市">
         					<path class="st0" d="M535.22,62.51c2.79-1.1,7.33-0.06,8.1,4.02c0.71,3.8,2.12,2.24,3.56,1.13c1.47-1.17,2.61-2.98,4.72-1.38
                 			c1.13,0.83,3.4,0.52,3.22,2.7c-0.18,1.99-1.93,1.99-3.47,2.36c-5.4,1.23-7.15,3.9-4.51,8.31c3.13,5.31-1.53,3.93-3.13,4.94
@@ -364,7 +367,7 @@
 	</script> -->
 	<!-- <script src="js/raining.js"></script> -->
 	<script type="text/javascript" src=js/index.js></script>
-	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-	<script type="text/javascript" src=js/chart.js></script>
+	<!--濾鏡fuction-->
+	<script src="./js/filter.js"></script>
 </body>
 </html>
