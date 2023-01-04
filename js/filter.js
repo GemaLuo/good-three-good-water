@@ -186,9 +186,9 @@ function createBars(url, id) {
 
   const img = document.createElementNS("http://www.w3.org/2000/svg", "image");
   img.setAttributeNS("http://www.w3.org/1999/xlink", "xlink:href", url);
-  img.setAttribute("width", "500");
+  img.setAttribute("width", "200");
   img.setAttribute("height", "500");
-  img.setAttribute("x", "450");
+  img.setAttribute("x", "600");
   img.setAttribute("y", "0");
   img.id = id;
   svg.appendChild(img);
