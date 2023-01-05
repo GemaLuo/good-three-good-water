@@ -100,10 +100,11 @@ function getChart(elem){
             },
             layout: {
                 padding:{
-                    bottom: 30,
-                    left: 25
+                    bottom: 40,
+                    left: 20
                 }
-            }
+            },
+            maintainAspectRatio: false
         }
         });
 

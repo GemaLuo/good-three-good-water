@@ -2,6 +2,7 @@ const rainfall = document.getElementById("rainfall");
 const mobileRainfall = document.getElementById("mobile-rainfall");
 const temp = document.getElementById("temp");
 const mobileTemp = document.getElementById("mobile-temp");
+const dropdown = document.querySelector(".dropdown");
 
 document.addEventListener("click", (event) => {
   if (
@@ -18,12 +19,14 @@ rainfall.addEventListener("click", () => {
   showRainfall();
 });
 mobileRainfall.addEventListener("click", () => {
+  dropdown.classList.remove('active');
   showRainfall();
 });
 temp.addEventListener("click", () => {
   showTEMP();
 });
 mobileTemp.addEventListener("click", () => {
+  dropdown.classList.remove('active');
   showTEMP();
 });
 
