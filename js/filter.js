@@ -19,14 +19,14 @@ rainfall.addEventListener("click", () => {
   showRainfall();
 });
 mobileRainfall.addEventListener("click", () => {
-  dropdown.classList.remove('active');
+  dropdown.classList.remove("active");
   showRainfall();
 });
 temp.addEventListener("click", () => {
   showTEMP();
 });
 mobileTemp.addEventListener("click", () => {
-  dropdown.classList.remove('active');
+  dropdown.classList.remove("active");
   showTEMP();
 });
 
