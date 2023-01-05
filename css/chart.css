@@ -11,16 +11,21 @@
 }
 .tips{
     width: 130px;
-    height: 36px;
     position: absolute;
     top: 10px;
     right: 32px;
     font-size: 12px;
     color: #808080;
-    background-color: rgb(255, 255, 255, 0.2);
+    background-color: rgb(255, 255, 255, 0.5);
     text-align: left;
     border-radius: 5px;
     padding-left: 5px;
     display: none;
     
+}
+
+@media (max-width:750px){
+    .tips{
+        width: 90px;
+    }
 }

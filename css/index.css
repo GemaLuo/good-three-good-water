@@ -272,6 +272,15 @@ a.active path {
     transform: translateY(0);
     position: auto;
   }
+  #mobile-temp,
+  #mobile-rainfall {
+    cursor: pointer;
+  }
+  #mobile-temp:hover,
+  #mobile-rainfall:hover {
+    background: rgb(171, 207, 243, 0.7);
+    border-radius: 5px;
+  }
   .main {
     width: 99%;
   }
