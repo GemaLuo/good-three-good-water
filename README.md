@@ -3,7 +3,7 @@
 # [好三好水好天氣](https://zabeth16.github.io/good-three-good-water/)
 
 ## 畫面展示（網頁版）
-https://user-images.githubusercontent.com/112456014/211022272-7cdf91ca-0e3e-4e5a-96e8-05e09f9a2148.mov
+![16730139225661673013922568](https://user-images.githubusercontent.com/112456014/211028070-a359a023-837c-4cfd-93bb-d439fa99925c.gif)
 
 ## 畫面展示(手機版)
 ![RWD](https://user-images.githubusercontent.com/112456014/211024540-6d36a278-d07c-41d2-be53-29aa3ea0bab6.gif)
@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/112456014/211022272-7cdf91ca-0e3e-4e5a
 ![index_label (1)](https://user-images.githubusercontent.com/112456014/211024808-9e274d32-9f74-440e-8445-25e8371abff9.gif)
 
 ## 溫度、雨量濾鏡
-https://user-images.githubusercontent.com/112456014/211023853-edbbcf6e-afdc-4fdb-b28b-95f25667b491.mov
+![1673013771924](https://user-images.githubusercontent.com/112456014/211028186-1502ee24-a17d-4df2-aa28-91cf6dd21e01.gif)
 
 ## 翻轉吧！小雲
 ![rotate](https://user-images.githubusercontent.com/112456014/211023559-76b9d142-332b-4f65-9a4b-35438ef4a145.gif)
