@@ -48,6 +48,10 @@ footer>div {
     color: #FFFFFF;
 }
 
+.copyright{
+    display: flex;
+}
+
 .box body {
     display: flex;
     flex-direction: column;
@@ -87,7 +91,7 @@ footer>div {
     width: 180px;
     height: 45px;
     line-height: 3;
-    background: #5c6664;
+    background: #dce8f6;
     overflow: hidden;
     border-radius: 10px;
  }
@@ -420,8 +424,19 @@ footer>div {
 
 @media only screen and (max-width: 750px) {
 
+    .box{
+        width: 150px;
+    }
+
+    .copyright{
+        display: grid;
+        grid-template: 100%;
+        line-height: 25px;
+        text-align: center;
+    }
+
     .block{
-        margin-top: -25px;
+        margin-top: -30px;
     }
 
     .main-left-today,
@@ -500,6 +515,9 @@ footer>div {
 
 @media only screen and (max-width: 405px) {
 
+    .box{
+        width: 120px;
+    }
 
     .w22 {
         padding-right: 5px;
