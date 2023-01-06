@@ -12,9 +12,9 @@ document.querySelectorAll("a").forEach(function (aElements) {
     if(x < 50){
       x = 50
     }
-    console.log(evt)
+    // console.log(evt)
     // console.log(rect)
-    console.log("x: ", x , "y: ", y)
+    // console.log("x: ", x , "y: ", y)
     //更新可愛座標圖示的位置，平移到點擊地點  
     document.getElementById("position").setAttribute("transform", "translate(" + x  + " " + y + ")")
     const card = document.querySelector(".card")
