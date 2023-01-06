@@ -3,12 +3,12 @@ document.querySelectorAll("a").forEach(function (aElements) {
     const theID = aElements.getAttribute("id");
     // 取得 theId 元素的座標
     var element = document.getElementById(theID);
-    // var rect = element.getBoundingClientRect();
     var rect = element.getClientRects()[0];
-    var x = evt.offsetX + rect.height
+    var x = evt.offsetX - rect.width
     var y = evt.offsetY - rect.width
-    if (y < 0){
+    if (y < 0 || x < 0){
       y = 0
+      x = 0
     }
     // console.log(evt)
     // console.log(rect)
