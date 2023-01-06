@@ -29,10 +29,10 @@ https://user-images.githubusercontent.com/112456014/211024414-309b22e5-b100-404d
 
 **莊霈虹**：本週預報區塊的氣溫折線圖 ElliChuang
 
-**陳與任**：地圖上氣溫、雨量濾鏡
+**陳與任**：地圖上氣溫、雨量濾鏡 ron208888
 
 **李郁玹**：今、明兩日天氣資訊	yuhsuanlii
 
-**羅文君**：HTML切版、臺灣地圖 OliviaLuo
+**羅文君**：HTML切版、臺灣地圖 GemaLuo
 
 
