@@ -1,6 +1,6 @@
 # good-three-good-water 
 
-# 好三好水好天氣
+# [好三好水好天氣](https://zabeth16.github.io/good-three-good-water/)
 
 分工
 
