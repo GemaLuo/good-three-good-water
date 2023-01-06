@@ -8,6 +8,8 @@ https://user-images.githubusercontent.com/112456014/211022272-7cdf91ca-0e3e-4e5a
 ## 畫面展示(手機版)
 ![RWD](https://user-images.githubusercontent.com/112456014/211024540-6d36a278-d07c-41d2-be53-29aa3ea0bab6.gif)
 
+## 切版
+
 ## 點擊地圖
 ![index](https://user-images.githubusercontent.com/112456014/211022552-aa149304-d07d-4866-8c4e-2ac1419e22d5.gif)
 
