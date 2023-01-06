@@ -11,17 +11,17 @@ body {
   font-style: normal;
 }
 /*導覽列*/
-.navigation{
-    display: flex;
-    width: 100%;
-    height: 54px;
-    justify-content: center;
-    align-items: center;
-    background-color:  #60a5fa;
-    margin-bottom: 30px;
-    margin-top: 0;
-    box-shadow: 0 0 6px 0 #1e3a8a;
-}           
+.navigation {
+  display: flex;
+  width: 100%;
+  height: 54px;
+  justify-content: center;
+  align-items: center;
+  background-color: #60a5fa;
+  margin-bottom: 30px;
+  margin-top: 0;
+  box-shadow: 0 0 6px 0 #1e3a8a;
+}
 nav {
   display: flex;
   width: 1200px;
@@ -84,9 +84,7 @@ nav {
   margin-bottom: 50px;
   background-image: url("../pics/index-background.gif");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-position: right;
   background-origin: border-box;
 }
 .main-content {
@@ -171,7 +169,7 @@ svg {
 a {
   fill: #e6e6e6;
 }
-#map{
+#map {
   position: relative;
 }
 a path {
