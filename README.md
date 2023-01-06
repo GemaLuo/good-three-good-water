@@ -24,7 +24,7 @@
 ![rotate](https://user-images.githubusercontent.com/112456014/211023559-76b9d142-332b-4f65-9a4b-35438ef4a145.gif)
 
 ## 天氣資訊及折線圖特效
-https://user-images.githubusercontent.com/112456014/211024414-309b22e5-b100-404d-a0e6-5508c4d21e28.mov
+![1673014124679](https://user-images.githubusercontent.com/112456014/211028548-badd031e-d551-4a1f-957c-a7aacc8c3bd7.gif)
 
 ## 分工
 
