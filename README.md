@@ -1,6 +1,6 @@
 # good-three-good-water 
 
-# 好山好水好天氣
+# 好三好水好天氣
 
 分工
 
