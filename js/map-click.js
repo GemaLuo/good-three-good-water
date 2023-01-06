@@ -70,3 +70,28 @@ function climate(location){
     
   });
 };
+
+
+// 選單點選縣市
+document.querySelector("#city").addEventListener("change" , (evt)=>{
+  const valID = evt.target.value;
+  var element = document.getElementById(valID);
+  var rect = element.getClientRects()[0];
+  var x = rect.height -20
+  var y = rect.top
+  if (y < 0){
+    y = 0
+  }
+  if(x < 50){
+    x = 50
+  }
+  // console.log(evt)
+  // console.log(rect)
+  // console.log("x: ", x , "y: ", y)
+  //更新可愛座標圖示的位置，平移到點擊地點  
+  document.getElementById("position").setAttribute("transform", "translate(" + x  + " " + y + ")")
+  const card = document.querySelector(".card")
+  card.textContent = valID  
+  let location = valID 
+  climate(location);
+})
