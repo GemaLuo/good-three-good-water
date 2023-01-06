@@ -2,6 +2,10 @@
 
 # [好三好水好天氣](https://zabeth16.github.io/good-three-good-water/)
 
+## 畫面展示
+https://user-images.githubusercontent.com/112456014/211022272-7cdf91ca-0e3e-4e5a-96e8-05e09f9a2148.mov
+
+
 分工
 
 **陳思婷**：組長、地圖上CLICK特效、畫些可愛小圖~~
@@ -13,3 +17,5 @@
 **李郁玹**：今、明兩日天氣資訊	yuhsuanlii
 
 **羅文君**：HTML切版、臺灣地圖 OliviaLuo
+
+
