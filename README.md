@@ -5,6 +5,8 @@
 ## 畫面展示
 https://user-images.githubusercontent.com/112456014/211022272-7cdf91ca-0e3e-4e5a-96e8-05e09f9a2148.mov
 
+## 點擊地圖
+![index](https://user-images.githubusercontent.com/112456014/211022552-aa149304-d07d-4866-8c4e-2ac1419e22d5.gif)
 
 分工
 
