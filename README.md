@@ -26,6 +26,9 @@
 ## 天氣資訊及折線圖特效
 ![1673014124679](https://user-images.githubusercontent.com/112456014/211028548-badd031e-d551-4a1f-957c-a7aacc8c3bd7.gif)
 
+## 縮放畫面
+![6c9195f77982ba68](https://user-images.githubusercontent.com/112456014/211028869-f642e333-9c3f-4ded-842a-a90ab7a40822.gif)
+
 ## 分工
 
 **陳思婷（zebeth16）**：組長、地圖上CLICK特效、畫些可愛小圖~~
