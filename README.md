@@ -2,11 +2,19 @@
 
 # [好三好水好天氣](https://zabeth16.github.io/good-three-good-water/)
 
-## 畫面展示
+## 畫面展示（網頁版）
 https://user-images.githubusercontent.com/112456014/211022272-7cdf91ca-0e3e-4e5a-96e8-05e09f9a2148.mov
+
+## 畫面展示(手機版)
+
 
 ## 點擊地圖
 ![index](https://user-images.githubusercontent.com/112456014/211022552-aa149304-d07d-4866-8c4e-2ac1419e22d5.gif)
+
+## 地圖選單
+![index](https://user-images.githubusercontent.com/112456014/211022951-008ab17a-9c12-48be-983c-5588719049ba.gif)
+
+## 溫度、雨量
 
 分工
 
