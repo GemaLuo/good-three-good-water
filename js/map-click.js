@@ -4,15 +4,17 @@ document.querySelectorAll("a").forEach(function (aElements) {
     // 取得 theId 元素的座標
     var element = document.getElementById(theID);
     var rect = element.getClientRects()[0];
-    var x = evt.offsetX - rect.width
+    var x = evt.offsetX - 100
     var y = evt.offsetY - rect.width
-    if (y < 0 || x < 0){
+    if (y < 0){
       y = 0
-      x = 0
     }
-    // console.log(evt)
+    if(x < 50){
+      x = 50
+    }
+    console.log(evt)
     // console.log(rect)
-    // console.log("x: ", x , "y: ", y)
+    console.log("x: ", x , "y: ", y)
     //更新可愛座標圖示的位置，平移到點擊地點  
     document.getElementById("position").setAttribute("transform", "translate(" + x  + " " + y + ")")
     const card = document.querySelector(".card")
