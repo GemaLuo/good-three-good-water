@@ -50,30 +50,33 @@
 			</div>
 			<!--主畫面左下半-折線圖-->
 			<div class="main-left-bottom">
-				本周預報
+				本週預報
 			</div>
 			<!--主畫面-右側-地圖-->
 			<div class="main-right">
-				<label for="city">選取縣市:</label>
-				<select id="city" name="city">
-					<option value="臺北市">臺北市</option>
-  					<option value="新北市">新北市</option>
-  					<option value="基隆市">基隆市</option>
-  					<option value="宜蘭縣">宜蘭縣</option>
-  					<option value="花蓮縣">花蓮縣</option>
-  					<option value="臺東縣">臺東縣</option>
-  					<option value="桃園市">桃園市</option>
-  					<option value="新竹縣">新竹縣</option>
-  					<option value="苗栗縣">苗栗縣</option>
-  					<option value="臺中市">臺中市</option>
-  					<option value="彰化縣">彰化縣</option>
-  					<option value="南投縣">南投縣</option>
-  					<option value="雲林縣">雲林縣</option>
-  					<option value="嘉義縣">嘉義縣</option>
-  					<option value="臺南市">臺南市</option>
-  					<option value="高雄市">高雄市</option>
-  					<option value="屏東縣">屏東縣</option>
-				</select>
+				<!-- <label for="city">選取縣市:</label> -->
+				<div class="box">
+					<select id="city" name="city">
+						<option value="臺北市">臺北市</option>
+						  <option value="新北市">新北市</option>
+						  <option value="基隆市">基隆市</option>
+						  <option value="宜蘭縣">宜蘭縣</option>
+						  <option value="花蓮縣">花蓮縣</option>
+						  <option value="臺東縣">臺東縣</option>
+						  <option value="桃園市">桃園市</option>
+						  <option value="新竹縣">新竹縣</option>
+						  <option value="苗栗縣">苗栗縣</option>
+						  <option value="臺中市">臺中市</option>
+						  <option value="彰化縣">彰化縣</option>
+						  <option value="南投縣">南投縣</option>
+						  <option value="雲林縣">雲林縣</option>
+						  <option value="嘉義縣">嘉義縣</option>
+						  <option value="臺南市">臺南市</option>
+						  <option value="高雄市">高雄市</option>
+						  <option value="屏東縣">屏東縣</option>
+					</select>
+				</div>
+		
   				<div class="block">
     				<svg version="1.1" id="map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;" xml:space="preserve">
       					<!--需要移至css檔中，濾鏡才能作用-->
@@ -363,6 +366,11 @@
 			</div>
 		</div>
 	</div>
+
+	<footer class="footer">
+        <div class="copyright">COPYRIGHT © 2023 好三好水好天氣 GOOD THREE</div>
+    </footer>
+
 	<!-- 美化雨量觀測顯示、資料處理或建立資料分頁功能 -->
 	<!--<h3>雨量觀測</h3>
 	<div id="raining"></div>-->
