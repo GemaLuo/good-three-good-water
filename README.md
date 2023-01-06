@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/112456014/211022272-7cdf91ca-0e3e-4e5a
 ![index](https://user-images.githubusercontent.com/112456014/211022552-aa149304-d07d-4866-8c4e-2ac1419e22d5.gif)
 
 ## 地圖選單
-![index](https://user-images.githubusercontent.com/112456014/211022951-008ab17a-9c12-48be-983c-5588719049ba.gif)
+![index_label (1)](https://user-images.githubusercontent.com/112456014/211024808-9e274d32-9f74-440e-8445-25e8371abff9.gif)
 
 ## 溫度、雨量濾鏡
 https://user-images.githubusercontent.com/112456014/211023853-edbbcf6e-afdc-4fdb-b28b-95f25667b491.mov
