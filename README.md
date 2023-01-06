@@ -1,12 +1,12 @@
+# good-three-good-water 
 
-
-# [好三好水好天氣](https://zabeth16.github.io/good-three-good-water/) # good-three-good-water 
+# [好三好水好天氣](https://zabeth16.github.io/good-three-good-water/)
 
 ## 畫面展示（網頁版）
 https://user-images.githubusercontent.com/112456014/211022272-7cdf91ca-0e3e-4e5a-96e8-05e09f9a2148.mov
 
 ## 畫面展示(手機版)
-
+![RWD](https://user-images.githubusercontent.com/112456014/211024540-6d36a278-d07c-41d2-be53-29aa3ea0bab6.gif)
 
 ## 點擊地圖
 ![index](https://user-images.githubusercontent.com/112456014/211022552-aa149304-d07d-4866-8c4e-2ac1419e22d5.gif)
@@ -19,6 +19,9 @@ https://user-images.githubusercontent.com/112456014/211023853-edbbcf6e-afdc-4fdb
 
 ## 翻轉吧！小雲
 ![rotate](https://user-images.githubusercontent.com/112456014/211023559-76b9d142-332b-4f65-9a4b-35438ef4a145.gif)
+
+## 天氣資訊及折線圖特效
+https://user-images.githubusercontent.com/112456014/211024414-309b22e5-b100-404d-a0e6-5508c4d21e28.mov
 
 ## 分工
 
