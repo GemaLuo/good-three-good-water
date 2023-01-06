@@ -16,6 +16,8 @@ https://user-images.githubusercontent.com/112456014/211022272-7cdf91ca-0e3e-4e5a
 
 ## 溫度、雨量
 
+## 可愛小動畫
+
 分工
 
 **陳思婷**：組長、地圖上CLICK特效、畫些可愛小圖~~
