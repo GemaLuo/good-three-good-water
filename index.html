@@ -8,6 +8,7 @@
 	<!--建立首頁樣板用-->
 	<link rel="stylesheet" type="text/css" href="css/index.css" />
 	<link rel="stylesheet" type="text/css" href="css/chart.css" />
+	<link rel="stylesheet" type="text/css" href="css/map-click.css" />
 	<!-- 建立整體樣式指導：基礎字型、字體、基底色、標題、段落樣式等等 -->
 	<!--<link rel="stylesheet" type="text/css" href="css/common.css" />-->
 	<!-- 建立雨量觀測部份的樣式 -->
@@ -347,6 +348,15 @@
 							c10.49-7.76,13.25-20.4,21.81-29.02c0.92-0.92,1.23-2.45,1.9-3.62C327.68,482.9,327.5,481.7,326.36,481.55z" />
 						</g>
 					</a>
+					<g id = "position" ><!--平移座標數字-->
+						<desc>可愛座標圖示</desc>
+						<image xlink:href="pics/sun-01.png"  width="100px" height="100px" />	
+								
+						<rect class="my-rect" x="-50" y="100" width = "200px" height = "100px"
+						  fill="#eff6ff" stroke="#AABBCC" stroke-width="2"></rect>
+						<text x="20" y="130"  dy="10"  class="card" fill="#1e3a8a" ></text>			
+						<text x="50" y="170"  dy="10"  class="the-weather" fill="#1e3a8a" text-anchor="middle">讚的</text><!--天氣情況-->							
+					</g>
 					</svg>
 				</div>
 			</div>
@@ -370,6 +380,7 @@
 	</script> -->
 	<!-- <script src="js/raining.js"></script> -->
 	<script type="text/javascript" src=js/index.js></script>
+	<script type="text/javascript" src=js/map-click.js></script>
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script type="text/javascript" src=js/chart.js></script>
 	<!--濾鏡function-->

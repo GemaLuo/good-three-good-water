@@ -171,7 +171,9 @@ svg {
 a {
   fill: #e6e6e6;
 }
-
+#map{
+  position: relative;
+}
 a path {
   transition: all 0.2s;
 }
