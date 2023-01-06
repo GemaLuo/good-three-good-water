@@ -5,7 +5,7 @@ html {
   height: 100%;
 }
 body {
-  min-height: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
   font-style: normal;
@@ -78,6 +78,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
   flex-direction: row;
@@ -289,6 +290,7 @@ a.active path {
   }
   .main {
     width: 99%;
+    margin-top: 50px;
   }
   .main-content {
     grid-template-columns: 25% 25% 25% 25%;
