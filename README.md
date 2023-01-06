@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/112456014/211022272-7cdf91ca-0e3e-4e5a
 ## 地圖選單
 ![index](https://user-images.githubusercontent.com/112456014/211022951-008ab17a-9c12-48be-983c-5588719049ba.gif)
 
-## 溫度、雨量
+## 溫度、雨量濾鏡
 
 ## 翻轉吧！小雲
 ![rotate](https://user-images.githubusercontent.com/112456014/211023559-76b9d142-332b-4f65-9a4b-35438ef4a145.gif)
